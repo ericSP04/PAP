@@ -17,9 +17,17 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"Font2","order":1,"path":"fonts/Font2/Font2.yy",},
+    {"name":"obj_chao","order":1,"path":"objects/obj_chao/obj_chao.yy",},
+    {"name":"obj_dialog_1","order":4,"path":"objects/obj_dialog_1/obj_dialog_1.yy",},
+    {"name":"obj_mc","order":2,"path":"objects/obj_mc/obj_mc.yy",},
+    {"name":"Skip","order":3,"path":"objects/Skip/Skip.yy",},
+    {"name":"R_Tutorial","order":1,"path":"rooms/R_Tutorial/R_Tutorial.yy",},
+    {"name":"spr_chao","order":5,"path":"sprites/spr_chao/spr_chao.yy",},
     {"name":"spr_dialog","order":4,"path":"sprites/spr_dialog/spr_dialog.yy",},
-    {"name":"spr_Fail","order":1,"path":"sprites/spr_Fail/spr_Fail.yy",},
+    {"name":"spr_mc","order":1,"path":"sprites/spr_mc/spr_mc.yy",},
     {"name":"spr_quadro","order":3,"path":"sprites/spr_quadro/spr_quadro.yy",},
+    {"name":"spr_skip","order":6,"path":"sprites/spr_skip/spr_skip.yy",},
     {"name":"spr_White","order":2,"path":"sprites/spr_White/spr_White.yy",},
   ],
 }

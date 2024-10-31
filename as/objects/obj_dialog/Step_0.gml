@@ -20,4 +20,7 @@ if (dialogo_atual < array_length(dialogos)) { // Verifica se ainda há diálogos
             }
         }
     }
+}else
+{
+	room_goto(R_Tutorial);
 }
