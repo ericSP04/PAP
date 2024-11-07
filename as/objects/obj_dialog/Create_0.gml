@@ -4,7 +4,7 @@ dialogos = ["Antes de Qualquer coisa o Botão para Interargir com os dialogos é
             "Como vai pequenino", 
             "Você é uma Máquina, uma maquina exploradora. Atualmente não há nada que valha a pena ser documentado.",
 			"Você está livre, seus criadores não voltaram e nem lembraram de seu nome. Como se Algum dia você tivesse um nome...",
-			"Mas Pense pelo lado bom você não está totalmente sozinho, há outro como tu também aqui !!!",
+			"Mas Pense pelo lado bom você não está totalmente sozinho, há outros como tu também aqui !!!",
 			"Apesar que a Maioria já deve ter enloquecido..."];
 			
 dialogo_atual = 0; // Índice do diálogo atual

@@ -1,5 +1,5 @@
 if (keyboard_check(vk_up) || keyboard_check(ord("W"))) {
-    y -= 5;
+    y -= 7;
     tempo_alternar += 1;
 
     if (tempo_alternar >= 10) {
@@ -16,7 +16,7 @@ if (keyboard_check(vk_up) || keyboard_check(ord("W"))) {
 
 if (keyboard_check(vk_down) || keyboard_check(ord("S")))
 {
-	y += 5;
+	y += 7;
     tempo_alternar += 1;
 
     if (tempo_alternar >= 10) {
@@ -32,7 +32,7 @@ if (keyboard_check(vk_down) || keyboard_check(ord("S")))
 }
 if (keyboard_check(vk_left) || keyboard_check(ord("A")))
 {
-    x -= 5;
+    x -= 7;
 	image_xscale = -1;
 	tempo_alternar += 1;
 
@@ -50,7 +50,7 @@ if (keyboard_check(vk_left) || keyboard_check(ord("A")))
 }
 if (keyboard_check(vk_right) || keyboard_check(ord("D")))
 {
-		x += 5;
+		x += 7;
 	    tempo_alternar += 1;
 		image_xscale = 1;
 

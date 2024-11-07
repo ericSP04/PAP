@@ -1,6 +1,6 @@
 dialogo_tempo += dialogo_velocidade;
 
-if (abs(obj_mc.x - posicao_x) > 5 && abs(obj_mc.y - posicao_y) > 5) {
+if (abs(obj_mc.x - posicao_x) > 250 && abs(obj_mc.y - posicao_y) >= 0) {
     dialogo_velocidade = 0.25; // Define a velocidade de escrita do diálogo
 }
 
