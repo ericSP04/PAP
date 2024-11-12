@@ -7,7 +7,7 @@ var cam_height = camera_get_view_height(cam);
 x = cam_x + cam_width - sprite_width/2 - 40;
 y = cam_y + sprite_height/2 - 40;
 
-// Verifica colisão
+// colisão
 is_colliding = place_meeting(obj_mc.x, obj_mc.y, obj_fim);
 
 if (is_colliding)

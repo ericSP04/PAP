@@ -1,7 +1,7 @@
 // Para que não seja deletado o sprite original
 draw_self();
 
-// Verifica se está perto do obj_warning e desenha o texto de aviso
+// se estiver perto de Warning aparece texto
 if (place_meeting(x, y, obj_warning))
 {
     draw_set_color(c_red);
