@@ -1,11 +1,10 @@
-/// @description Inserir descrição aqui
-// Você pode escrever seu código neste editor
-// Camera 
-var caixa_x = camera_get_view_x(view_camera[0]);
-var caixa_y = camera_get_view_y(view_camera[0])+100;
+var caixa_x = 512;
+var caixa_y = 128;
 var margem = 10; 
-// Defina a cor da sombra da Fonte
+
 var dialogo_cor = make_color_rgb(255,10,70);
+
+//Cor Sombra
 var sombra_cor = c_black;
 var sombra_deslocamento_x = 2;
 var sombra_deslocamento_y = 2;

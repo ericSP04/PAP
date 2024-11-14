@@ -1,4 +1,19 @@
 {
-  "FolderOrderSettings":[],
-  "ResourceOrderSettings":[],
+  "FolderOrderSettings":[
+    {"name":"characters","order":8,"path":"folders/Sprites/characters.yy",},
+    {"name":"hp","order":9,"path":"folders/Sprites/hp.yy",},
+    {"name":"tileset","order":10,"path":"folders/Sprites/tileset.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"obj_barrier","order":1,"path":"objects/obj_barrier/obj_barrier.yy",},
+    {"name":"R_lvl1","order":1,"path":"rooms/R_lvl1/R_lvl1.yy",},
+    {"name":"collision_barrier","order":11,"path":"sprites/collision_barrier/collision_barrier.yy",},
+    {"name":"collision_dialog","order":7,"path":"sprites/collision_dialog/collision_dialog.yy",},
+    {"name":"spr_quadro","order":4,"path":"sprites/spr_quadro/spr_quadro.yy",},
+    {"name":"spr_skip","order":5,"path":"sprites/spr_skip/spr_skip.yy",},
+    {"name":"spr_tp","order":6,"path":"sprites/spr_tp/spr_tp.yy",},
+    {"name":"spr_wall","order":1,"path":"sprites/spr_wall/spr_wall.yy",},
+    {"name":"spr_wall2","order":3,"path":"sprites/spr_wall2/spr_wall2.yy",},
+    {"name":"spr_warning","order":2,"path":"sprites/spr_warning/spr_warning.yy",},
+  ],
 }

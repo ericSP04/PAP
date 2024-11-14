@@ -1,7 +1,5 @@
-// Para que não seja deletado o sprite original
 draw_self();
 
-// se estiver perto de Warning aparece texto
 if (place_meeting(x, y, obj_warning))
 {
     draw_set_color(c_red);

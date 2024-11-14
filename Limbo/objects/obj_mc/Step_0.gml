@@ -1,4 +1,10 @@
-if (keyboard_check(vk_up) || keyboard_check(ord("W"))) {
+var _cima = keyboard_check(vk_up) || keyboard_check(ord("W"))
+var _baixo = keyboard_check(vk_down) || keyboard_check(ord("S"))
+var _esquerda = keyboard_check(vk_left) || keyboard_check(ord("A"))
+var _direita = keyboard_check(vk_right) || keyboard_check(ord("D"))
+
+if _cima 
+{
     y -= 7;
     tempo_alternar += 1;
 
@@ -14,7 +20,7 @@ if (keyboard_check(vk_up) || keyboard_check(ord("W"))) {
     image_speed = 0;
 }
 
-if (keyboard_check(vk_down) || keyboard_check(ord("S")))
+if _baixo
 {
 	y += 7;
     tempo_alternar += 1;
@@ -30,7 +36,7 @@ if (keyboard_check(vk_down) || keyboard_check(ord("S")))
     }
     image_speed = 0;
 }
-if (keyboard_check(vk_left) || keyboard_check(ord("A")))
+if _esquerda
 {
     x -= 7;
 	image_xscale = -1;
@@ -48,7 +54,7 @@ if (keyboard_check(vk_left) || keyboard_check(ord("A")))
     image_speed = 0;
 	
 }
-if (keyboard_check(vk_right) || keyboard_check(ord("D")))
+if _direita
 {
 		x += 7;
 	    tempo_alternar += 1;

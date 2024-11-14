@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_tp",
+  "%Name":"obj_barrier",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_tp",
+  "name":"obj_barrier",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tp",
-    "path":"sprites/spr_tp/spr_tp.yy",
+    "name":"collision_barrier",
+    "path":"sprites/collision_barrier/collision_barrier.yy",
   },
   "spriteMaskId":null,
   "visible":true,

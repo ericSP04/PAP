@@ -1,5 +1,3 @@
-draw_self();
-
 posicao_x = obj_mc.x;  // Posição inicial do obj_mc em x
 posicao_y = obj_mc.y;  // Posição inicial do obj_mc em y
 

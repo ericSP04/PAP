@@ -38,6 +38,7 @@
   "resources":[
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"Fonte_Auto","path":"fonts/Fonte_Auto/Fonte_Auto.yy",},},
+    {"id":{"name":"obj_barrier","path":"objects/obj_barrier/obj_barrier.yy",},},
     {"id":{"name":"obj_chao","path":"objects/obj_chao/obj_chao.yy",},},
     {"id":{"name":"obj_dialog_1","path":"objects/obj_dialog_1/obj_dialog_1.yy",},},
     {"id":{"name":"obj_dialog_2","path":"objects/obj_dialog_2/obj_dialog_2.yy",},},
@@ -51,7 +52,9 @@
     {"id":{"name":"Skip","path":"objects/Skip/Skip.yy",},},
     {"id":{"name":"ParticleSystem2","path":"particles/ParticleSystem2/ParticleSystem2.yy",},},
     {"id":{"name":"R_Home","path":"rooms/R_Home/R_Home.yy",},},
+    {"id":{"name":"R_lvl1","path":"rooms/R_lvl1/R_lvl1.yy",},},
     {"id":{"name":"R_Tutorial","path":"rooms/R_Tutorial/R_Tutorial.yy",},},
+    {"id":{"name":"collision_barrier","path":"sprites/collision_barrier/collision_barrier.yy",},},
     {"id":{"name":"collision_dialog","path":"sprites/collision_dialog/collision_dialog.yy",},},
     {"id":{"name":"spr_arresta","path":"sprites/spr_arresta/spr_arresta.yy",},},
     {"id":{"name":"spr_chao","path":"sprites/spr_chao/spr_chao.yy",},},
@@ -77,6 +80,7 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"R_Home","path":"rooms/R_Home/R_Home.yy",},},
     {"roomId":{"name":"R_Tutorial","path":"rooms/R_Tutorial/R_Tutorial.yy",},},
+    {"roomId":{"name":"R_lvl1","path":"rooms/R_lvl1/R_lvl1.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
