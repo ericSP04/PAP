@@ -1,4 +1,4 @@
-var caixa_x = 512;
+var caixa_x = 384;
 var caixa_y = 128;
 var margem = 10; 
 

@@ -1,13 +1,13 @@
 posicao_x = obj_mc.x;  // Posição inicial do obj_mc em x
 posicao_y = obj_mc.y;  // Posição inicial do obj_mc em y
 
-dialogos = ["........................................................................................", 
-            "........................................................................................", 
-            "Falha no Sistema de Comunicação, Reponha peça por outra.................................", 
-            "Ambiente inprópio, repor peça com um drone quebrado.....................................",
-			"...........................................Local não possui drone disponivél............",
-			"........................................................................................",
-			"remova peça de um drone em funcionamento a sua frente..."
+dialogos = ["..........................................................\n"+ 
+            "..........................................................", 
+            "Falha no Sistema de Comunicação, Reponha peça por outra...\n"+ 
+            "Ambiente inprópio, repor peça com um drone quebrado.......",
+			".............Local não possui drone disponivél............\n"+
+			"..........................................................",
+			"..remova peça de um drone em funcionamento a sua frente..."
 			];
 
 dialogo_atual = 0;        // Índice do diálogo atual

@@ -2,12 +2,12 @@ var caixa_x = obj_dialog.x;
 var caixa_y = obj_dialog.y; 
 var margem = 10; 
 
-draw_set_font(Font1)
+draw_set_font(Fonte_Auto)
 
-var sombra_cor = c_black;
+var sombra_cor = c_gray;
 var sombra_deslocamento_x = 2;
 var sombra_deslocamento_y = 2;
-var color = make_color_rgb(50,50,205);
+var color = c_white;
 
 draw_set_color(sombra_cor);
 if (dialogo_atual < array_length(dialogos)) {
