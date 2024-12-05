@@ -3,5 +3,5 @@
 
 if place_meeting(x,y ,obj_mc)
 {
-	obj_mc.y +=10;
+	obj_mc.y +=7;
 }

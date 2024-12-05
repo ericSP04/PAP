@@ -2,12 +2,12 @@ dialogo_tempo += dialogo_velocidade;
 var acelerar =keyboard_check(vk_space);
 
 if (abs(obj_mc.x - posicao_x) > 250 && abs(obj_mc.y - posicao_y) >= 0) {
-    dialogo_velocidade = 0.125; // Define a velocidade de escrita do diálogo
+    dialogo_velocidade = 0.125;
 }
 
 if (dialogo_velocidade > 0) {
-    // Se o diálogo atual ainda está incompleto, escreva progressivamente
-    if (dialogo_atual < array_length(dialogos)) { // Verifica se ainda há diálogos
+    //Se o dialogo estiver imcompleto ele termina
+    if (dialogo_atual < array_length(dialogos)) { //Se tem dialogo ainda
         if (dialogo_indice <= string_length(dialogos[dialogo_atual])) {
             if (dialogo_tempo >= 1) {
                 dialogo_parcial = string_copy(dialogos[dialogo_atual], 1, dialogo_indice);
@@ -16,17 +16,11 @@ if (dialogo_velocidade > 0) {
                 dialogo_tempo = 0; // Reinicia o tempo
             }
         } else {
-            // Se o diálogo atual estiver completo, avança automaticamente
-            dialogo_atual++; // Avança para o próximo diálogo
-            if (dialogo_atual < array_length(dialogos)) {
-                dialogo_indice = 1; // Reinicia o índice para o próximo diálogo
-                dialogo_parcial = ""; // Limpa o texto parcial
-				if(keyboard_check(vk_space)){
-			dialogo_velocidade = 1;
-			}else{
-				dialogo_velocidade = 0.25;
-			}
-            }
+				dialogo_atual++; // avancar proximo dialogo
+	            if (dialogo_atual < array_length(dialogos)){
+	                dialogo_indice = 1; //proximo dialogo
+	                dialogo_parcial = ""; // Limpar dialogo
+	            }
         }
     }else{
 	instance_destroy();}

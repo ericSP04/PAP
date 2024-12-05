@@ -4,15 +4,16 @@ posicao_x = obj_mc.x;  // Posição inicial do obj_mc em x
 posicao_y = obj_mc.y;  // Posição inicial do obj_mc em y
 
 dialogos = [
+	"",
     "Olá pequeno Esfera, pelo que eu vi você foi ativado somente agora...", 
-    "Bom, não há absolutamente nada há se fazer nossos criadores já estão\n todos mortos. A propósito qual seu nome", 
-    "Não vai me falar ?...Seu Altos Falantes estão com defeito ou seu Cérebro\n Artificial está com defeito ?... uhmmm...Ester...",
-    "Que tal Estrela ?... A verdade você não consegue falar, então está \ndecidido. A partir de Agora seu Nome será Estrela.",
-    "Esqueci de Menciona Mas eu não estou no planeta terra, sou um Satélite	\nInteligente, me chamo Comodora...",
-    "Acho que está é 11987º que eu acordo um de vocês...Mas entre todos esses \nvocê é o único que possui uma luz verde na cabeça",
-	"Olhando um Pouco mais para ti fica claro que foi feito por restos de explo\n-radores, você é uma mistura de (Explorador Florestal) com (Explorador Aquática)...",
+    "Bom, não há absolutamente nada há se fazer nossos criadores já estão\ntodos mortos. A propósito qual seu nome", 
+    "Não vai me falar ?...Seu Altos Falantes estão com defeito ou seu Cérebro\nArtificial está com defeito ?... uhmmm...Ester...",
+    "Que tal Estrela ?... A verdade você não consegue falar, então está\ndecidido. A partir de Agora seu Nome será Estrela.",
+    "Esqueci de Menciona Mas eu não estou no planeta terra, sou um Satélite\nInteligente, me chamo Comodora...",
+    "Acho que está é 11987º que eu acordo um de vocês...Mas entre todos es\n-ses você é o único que possui uma luz verde na cabeça",
+	"Olhando um Pouco mais para ti fica claro que foi feito por restos de ex\n-ploradores, você é uma mistura de (Explorador Florestal) com (Explorador\nAquática)...",
 	"Será que você é capaz de tocar a mancha negra e o toque do fim ou não \ntem resistência a ambos ?...",
-	"Está vendo aquela parte negra da Sala, encoste apenas um pouco, gostaria\n do que você seria capaz meu pequeno mestiço."
+	"Está vendo aquela parte negra da Sala, encoste apenas um pouco,\ngostaria do que você seria capaz meu pequeno mestiço."
 ];
 
 dialogo_atual = 0;        // Índice do diálogo atual
